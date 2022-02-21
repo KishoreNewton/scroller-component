@@ -1,0 +1,7 @@
+{
+  "name": "@kishorenewton/scroller",
+  "version": "1.0.0",
+  "description": "easy-to-use scrolling library",
+  "main": "src/index.js",
+  "license": "MIT"
+}
