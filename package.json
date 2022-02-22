@@ -1,8 +1,9 @@
 {
-  "name": "@kishorenewton/scroller",
+  "name": "kishorenewton-scroller",
   "version": "1.0.0",
   "description": "easy-to-use scrolling library",
   "main": "src/index.js",
+  "module": "dist/index.mjs",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.17.5",
@@ -27,6 +28,7 @@
   "dependencies": {},
   "scripts": {
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "build": "node esbuild.js"
   }
 }
