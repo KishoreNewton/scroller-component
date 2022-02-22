@@ -1,5 +1,1 @@
-module.exports = {
-  hello: function () {
-    return "Hello World!";
-  },
-};
+export { useScroller } from "./useScroller";
