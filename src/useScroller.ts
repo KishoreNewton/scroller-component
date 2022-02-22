@@ -1,4 +1,12 @@
-export function useScroller({ x, y, isSmooth = false }) {
+export function useScroller({
+  x,
+  y,
+  isSmooth = false,
+}: {
+  x: number;
+  y: number;
+  isSmooth?: boolean;
+}) {
   if (!window) return;
 
   return function scroller() {
