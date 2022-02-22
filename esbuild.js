@@ -1,18 +1,18 @@
 const esbuild = require("esbuild");
 
 const defaultConfig = {
-  entryPoints: ["./src/index.js"],
+  entryPoints: ["./src/index.ts"],
   bundle: true,
 };
 
 esbuild.build({
   ...defaultConfig,
   format: "esm",
-  outdir: "./dist/index.mjs",
+  outfile: "./dist/index.mjs",
 });
 
 esbuild.build({
   ...defaultConfig,
   format: "cjs",
-  outdir: "./dist/index.js",
+  outfile: "./dist/index.js",
 });
