@@ -9,6 +9,7 @@ export function useScroller({
 }) {
   if (!window) return;
 
+  // eslint-disable-next-line
   return function scroller() {
     window.scrollTo({
       left: x,
